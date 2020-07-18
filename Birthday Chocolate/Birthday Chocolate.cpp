@@ -1,6 +1,3 @@
-// Birthday Chocolate.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "pch.h"
 #include <iostream>
 #include <vector>
@@ -49,12 +46,6 @@ int birthday(vector<int> s, int d, int m) {
 	return iCakesCounter;
 }
 
-//Print vector values
-template<class T>
-void printVector(vector<T> v)
-{
-	for_each(v.begin(), v.end(), [](T i) {cout << i << " "; });
-}
 
 int main()
 {
