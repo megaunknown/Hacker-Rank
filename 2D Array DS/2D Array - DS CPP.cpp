@@ -6,8 +6,6 @@
 #include <stdlib.h>     /* srand, rand */
 using namespace std;
 
-class OldSol;
-
 class NewSol {
 public:
 	int GetHourGlassSumValue(vector<vector<int>> ss, int iStartCol, int iStartRow)

@@ -13,7 +13,6 @@
 #include <list>
 #include <cmath>
 #include <cstring>
-#include <stdlib.h>     /* srand, rand */
 using namespace std;
 
 // Complete the angryProfessor function below.
@@ -34,8 +33,6 @@ string angryProfessor(int k, vector<int> a) {
 }
 
 int main()
-{
-
-	
+{	
 	return 0;
 }
