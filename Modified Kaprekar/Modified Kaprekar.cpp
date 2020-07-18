@@ -1,6 +1,3 @@
-// Modified Kaprekar.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "pch.h"
 #include <iostream>
 #include <vector>
@@ -75,57 +72,8 @@ void kaprekarNumbers(int p, int q) {
 	}
 }
 
-
-//void test(int n)
-//{
-//	int org, squared;
-//
-//	bool bFlagRightPartIsZero = false;
-//	string s, l, r;
-//	int ileft = 0, iRight = 0, d = to_string(n).size();
-//	int iRightStartIndex = 0;
-//	
-//	org = n;
-//	
-//	squared = pow(org, 2);
-//	
-//	s = to_string(squared);
-//
-//
-//	if (s.length() == 1)
-//	{
-//		ileft = atoi(s.c_str());
-//		iRight = 0;
-//	}
-//	else {
-//		iRightStartIndex = s.size() - d;
-//		r = s.substr(iRightStartIndex, s.size() - iRight);
-//		iRight = atoi(r.c_str());
-//
-//		l = s.substr(0, iRightStartIndex);
-//		ileft = atoi(l.c_str());
-//
-//		if (iRight == 0)
-//			bFlagRightPartIsZero = true;
-//	}
-//
-//	if (!bFlagRightPartIsZero)
-//	{
-//		if (org == (ileft + iRight))
-//		{
-//			cout << org << " is Kaprekar number";
-//		}
-//	}
-//}
-
-
 int main()
 {
-//	/*for (int i = 1; i <= 300; i++)
-//	{
-//		test(i);
-//	}
-//*/
 	kaprekarNumbers(77778, 99999);
 
 	system("pause");

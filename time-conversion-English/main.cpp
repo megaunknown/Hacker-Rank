@@ -44,10 +44,6 @@ string timeConversion(string s) {
 
 
 int main(int argc, char** argv) {
-	/*
-	intput => 12:40:22AM
-	output => 00:40:22
-	*/
 	cout << timeConversion("12:40:22AM") << endl;
 	cout << timeConversion("07:05:45PM") << endl;
 	cout << timeConversion("06:40:03AM") << endl;

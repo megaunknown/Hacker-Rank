@@ -1,6 +1,3 @@
-// Lonely Integer.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "pch.h"
 #include <iostream>
 #include <iostream>     // std::cout
@@ -10,7 +7,9 @@
 #include <algorithm>
 #include <bitset>
 using namespace std;
+
 vector<int> c;
+
 // Complete the lonelyinteger function below.
 int lonelyinteger(vector<int> a) {
 	if (a.size() == 2 && a[0] == a[1])
@@ -27,11 +26,6 @@ int lonelyinteger(vector<int> a) {
 	}
 	return lonelyInt;
 }
-void check(int i)
-{
-	
-}
-
 
 int main()
 {

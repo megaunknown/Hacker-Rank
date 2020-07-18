@@ -1,19 +1,8 @@
-// Mini-Max Sum.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "pch.h"
 #include <iostream>
 #include <climits>
 #include <vector>
 using namespace std;
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-void print(int arr[], int size)
-{
-	for (int i = 0; i < size; i++)
-		cout << arr[i] << "  ";
-}
 
 void getMaxMin(long long arr[], int size)
 {

@@ -1,6 +1,3 @@
-// Plus Minus.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "pch.h"
 #include <iostream>
 #include <vector>
@@ -31,16 +28,9 @@ void plusMinus(vector<int> arr) {
 
 
 int main(int argc, char** argv) {
-	/*
-	0.428571
-	0.571429
-	0.000000
-	*/
+
 	vector<int>  v{ 1 ,-2 ,-7 ,9, 1, -8,-5 };
-
 	plusMinus(v);
-
-
 	system("pause");
 	return 0;
 }
